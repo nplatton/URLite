@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Smaller the better right?</h2>
+<span id="url">{{ url }}</span>
+<h3>One not enough for you? Get another!</h3>
+<form id="url-form" action="/" method="GET">
+  <input type="submit" id="url-submit" value="Give me MORE">
+</form>
+{% endblock %}
