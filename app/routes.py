@@ -7,7 +7,7 @@ from app import app
 
 URL = "http://localhost:5000/"
 
-@app.route("/shorten", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def home():
   if request.method == "GET":
     return render_template('home.html')
