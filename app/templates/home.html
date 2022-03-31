@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>It's not about size!</h1>
+<form id="url-form" action="/" method="POST">
+  <label aria-label="url-field">Url:</label>
+  <input id="url-field" name="url-field" type="text" placeholder="Enter the URL you want shortened"/>
+  <input type="submit" id="url-submit" value="Shorten!">
+</form>
+{% endblock %}
